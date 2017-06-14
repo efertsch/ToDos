@@ -11,3 +11,11 @@ $('span').on("click", function(event){
 	});
 	event.stopPropagation();
 });
+
+$("input[type='text']").on("keypress", function(event){
+	if(event.which === 13){
+		var newTodo = $(this).val();
+		$(this).val("");
+		$('ul').append("<li> <span> X </span> " + newTodo + "</li>");
+	};
+});
