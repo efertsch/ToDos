@@ -44,11 +44,12 @@ input {
 	box-sizing: border-box;
 	display: none;
 	/*webkits needed*/
+	border: 3px solid rgba(0 0 0 0);
 }
 
 input:focus {
 	background: white;
-	border:3px solid #2980e9;
+	border: 3px solid #2980e9;
 	outline: none;
 }
 
@@ -58,7 +59,7 @@ span {
 	margin-right: 20px;
 	text-align: center;
 	color: white;
-	width: 0px;
+	width: 0;
 	display: inline-block;
 	transition: 0.2s linear;
 }
