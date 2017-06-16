@@ -21,3 +21,7 @@ $("input[type='text']").on("keypress", function(event){
 	};
 });
 
+$(".fa-plus-circle").on("click", function(){
+	var input = $("input[type='text']");
+	input.toggle();
+});
