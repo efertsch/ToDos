@@ -60,6 +60,7 @@ span {
 	color: white;
 	width: 0px;
 	display: inline-block;
+	transition: 0.2s linear;
 }
 
 .fa-plus-circle {
