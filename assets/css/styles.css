@@ -32,6 +32,10 @@ li:nth-child(2n) {
 	background: #f7f7f7;
 }
 
+li:hover span {
+	width: 40px;
+}
+
 input {
 	font-size: 18px;
 	background: #f7f7f7;
@@ -45,6 +49,16 @@ input:focus {
 	background: white;
 	border:3px solid #2980e9;
 	outline: none;
+}
+
+span {
+	background: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
 }
 
 .fa-plus-circle {

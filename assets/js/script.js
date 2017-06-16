@@ -20,3 +20,4 @@ $("input[type='text']").on("keypress", function(event){
 		$('ul').append("<li> <span> <i class='fa fa-trash' aria-hidden='true'></i> </span> " + newTodo + "</li>");
 	};
 });
+
