@@ -21,7 +21,8 @@ $("input[type='text']").on("keypress", function(event){
 	};
 });
 
+// Collapse input form when plus icon is clicked
 $(".fa-plus-circle").on("click", function(){
 	var input = $("input[type='text']");
-	input.toggle();
+	input.fadeToggle();
 });
